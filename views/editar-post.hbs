@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar post</title>
+</head>
+<body>
+
+    <h1>Editar post</h1>
+    <form action="/editar-post/{{post._id}}" method="post">
+        <textarea cols="30" rows="10" name="text">{{post.text}}</textarea>
+        <button type="submit">Editar tweet</button>
+    </form>
+    
+</body>
+</html>
